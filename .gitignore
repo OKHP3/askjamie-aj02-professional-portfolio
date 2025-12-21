@@ -48,7 +48,6 @@ yarn-error.log
 # Python
 *.egg-info/
 dist/
-build/
 .pytest_cache/
 
 # Sensitive data
