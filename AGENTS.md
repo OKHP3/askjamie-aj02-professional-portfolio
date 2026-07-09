@@ -14,7 +14,7 @@ AJ02 — Professional Portfolio. AI lens presenting Jamie's full professional po
 [ TODO: Languages, frameworks, key dependencies ]
 
 ## Local Paths
-- **Windows**: `C:\Users\jamie\OKH-Local\Projects\askjamie-aj02-professional-portfolio`
+- **Windows**: `C:\Users\jamie\OKH-Local\04_GitHub_Mirrors\askjamie-aj02-professional-portfolio`
 - **Mac**: `/Volumes/OKH-Local/04_GitHub_Mirrors/askjamie-aj02-professional-portfolio`
 
 ## Key Conventions
