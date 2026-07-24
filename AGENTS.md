@@ -15,7 +15,7 @@ It applies to the whole repository. No nested `AGENTS.md`, `agents.md`, or `CONT
 - Git remote: `https://github.com/OKHP3/askjamie-aj02-professional-portfolio.git`
 - Display name used by the manifest: `AskJamie-GPT-AJ02`
 - Notion anchor: `https://app.notion.com/p/5aa8f4f4d9034d0097379db4c80ea4a9`
-- Current status: early scaffold / initial seed
+- Current status: early scaffold / initial seed. Repository maintenance is active, with the latest commit on 2026-07-22, but no portfolio corpus, prompt source, evaluation cases, or runnable application has been added yet.
 
 The repository is a Git-controlled content and configuration project for a GPT portfolio lens. It is not currently a runnable application. The repository has a `main` branch, and no uncommitted changes were present when this review began.
 
@@ -63,7 +63,7 @@ Do not describe planned or seeded capabilities as implemented capabilities. The 
 - `build/prompt-pack.md`: tracked prompt-pack seed.
 - `build/eval-pack.md`: tracked evaluation-pack seed.
 - `releases/`: intended release material; currently placeholder-only.
-- `docs/`: documentation location; currently placeholder-only.
+- `docs/`: documentation, including the current technology inventory; most other documentation locations remain placeholder-only.
 - `site/` and `web/`: intended site/web locations; currently placeholder-only.
 - `ops/`: intended operational tooling location; currently placeholder-only.
 - `.agents/skills/`: repository-local agent skills and supporting assets. These are agent guidance, not application runtime code.
