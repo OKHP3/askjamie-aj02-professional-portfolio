@@ -15,7 +15,7 @@ It applies to the whole repository. No nested `AGENTS.md`, `agents.md`, or `CONT
 - Git remote: `https://github.com/OKHP3/askjamie-aj02-professional-portfolio.git`
 - Display name used by the manifest: `AskJamie-GPT-AJ02`
 - Notion anchor: `https://app.notion.com/p/5aa8f4f4d9034d0097379db4c80ea4a9`
-- Current status: early scaffold / initial seed. Repository maintenance is active, with the latest commit on 2026-07-22, but no portfolio corpus, prompt source, evaluation cases, or runnable application has been added yet.
+- Current status: early scaffold / initial seed. Repository maintenance is active, with the latest commit on 2026-08-05. No portfolio corpus, prompt source, or runnable application has been added yet. The repository also contains a local Agent Skill estate and retained skill evaluation evidence.
 
 The repository is a Git-controlled content and configuration project for a GPT portfolio lens. It is not currently a runnable application. The repository has a `main` branch, and no uncommitted changes were present when this review began.
 
@@ -41,7 +41,7 @@ In scope:
 Out of scope for this repository:
 
 - Application code, a web frontend, or a service runtime. None is present today.
-- Credentials, secrets, private personal data, or generated local artifacts.
+- Credentials, secrets, private personal data, or unreviewed generated local artifacts. Retained evaluation evidence is in scope when its provenance and purpose are documented.
 - Changes to the related AJ01, AJ03, or AJ04 repositories.
 - Changes to the Notion anchor or external deployment unless the user explicitly requests them and the required integration is available.
 
@@ -57,7 +57,7 @@ Do not describe planned or seeded capabilities as implemented capabilities. The 
 - `prompts/`: source prompt material; currently placeholder-only.
 - `knowledge/`: knowledge material; currently placeholder-only.
 - `rag-source/`: intended retrieval source material; currently placeholder-only.
-- `eval/`: evaluation cases; currently placeholder-only.
+- `eval/`: evaluation cases and retained skill evaluation evidence; the portfolio evaluation area remains placeholder-only.
 - `tests/`: test location; currently placeholder-only.
 - `build/knowledge-pack.md`: tracked knowledge-pack seed.
 - `build/prompt-pack.md`: tracked prompt-pack seed.
@@ -67,6 +67,8 @@ Do not describe planned or seeded capabilities as implemented capabilities. The 
 - `site/` and `web/`: intended site/web locations; currently placeholder-only.
 - `ops/`: intended operational tooling location; currently placeholder-only.
 - `.agents/skills/`: repository-local agent skills and supporting assets. These are agent guidance, not application runtime code.
+- `skills/okhp3-skill-promotion/`: exact publication mirror for the local promotion skill, maintained from its `.agents/skills/` source package.
+- `eval/skill-foundry/`: retained evaluation workspace evidence moved out of the portable skill package surface.
 - `.replit`: minimal Replit agent and Nix channel configuration. It does not define a run, build, or deployment command.
 
 There are no nested repositories or submodules in the current tree.
@@ -125,6 +127,7 @@ When practical, also verify that every path referenced by changed guidance exist
 - The repository folder and remote use lowercase `askjamie-aj02-professional-portfolio`, while the manifest uses `AskJamie-GPT-AJ02`; the intended canonical display/repository name is unresolved.
 - The build packs say they are generated from source directories, but no generator or reproducible build process is present.
 - The relationship between `src/`, `knowledge/`, and `rag-source/` is described only at a high level and needs owner or implementation evidence before automation is added.
+- The repository contains 49 local Agent Skill packages. Their continued inclusion is confirmed by the current checkout, but ownership and long-term relationship to the AJ02 portfolio scaffold remain owner decisions.
 
 ## Keeping this guide current
 
