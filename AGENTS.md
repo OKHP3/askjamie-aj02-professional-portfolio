@@ -132,3 +132,5 @@ When practical, also verify that every path referenced by changed guidance exist
 ## Keeping this guide current
 
 Update this file when the repository gains real source material, executable tooling, tests, deployment configuration, a generation pipeline, or confirmed project conventions. Record the evidence for new commands and status claims. Keep `CLAUDE.md` as a short pointer unless genuinely Claude-specific instructions are needed.
+
+## Imported Claude Cowork project instructions
