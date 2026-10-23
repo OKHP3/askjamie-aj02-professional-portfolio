@@ -14,4 +14,5 @@ remain tracked in [migration issue #58](https://github.com/OKHP3/askjamie-foundr
 Existing website and GPT entry points remain the access references while that
 work proceeds. This notice does not announce a functioning replacement or
 retirement. The previous standalone documentation follows unchanged.
+
 Storage + version control for GPT‑AJ02 (AskJamie™ — Professional Portfolio): prompts, knowledge packs, eval tests, transcripts, and release notes. Supports the “Not a résumé. A clone of your best self.” portfolio lens—an always‑on conversational sales engine for individuals and small teams.
